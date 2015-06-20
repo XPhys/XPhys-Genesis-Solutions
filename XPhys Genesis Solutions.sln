@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.Me", "XPhys.Me\XPhys.Me.csproj", "{5B0B9BDE-17AA-4030-8022-780700D84589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.SportStore", "XPhys.SportStore\XPhys.SportStore.csproj", "{34FD2EEE-05D4-4582-AB5F-D1B535B1172F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.AngularJSCampus", "XPhys.AngularJSCampus\XPhys.AngularJSCampus.csproj", "{B230021A-D833-4E1B-B62E-1A28C8D85144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5B0B9BDE-17AA-4030-8022-780700D84589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B0B9BDE-17AA-4030-8022-780700D84589}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B0B9BDE-17AA-4030-8022-780700D84589}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B0B9BDE-17AA-4030-8022-780700D84589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FD2EEE-05D4-4582-AB5F-D1B535B1172F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FD2EEE-05D4-4582-AB5F-D1B535B1172F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FD2EEE-05D4-4582-AB5F-D1B535B1172F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FD2EEE-05D4-4582-AB5F-D1B535B1172F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

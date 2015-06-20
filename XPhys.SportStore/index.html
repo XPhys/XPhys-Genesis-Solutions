@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" ng-app="sportsStore">
+<head>
+    <meta charset="utf-8" />
+    <title>Sports Store</title>
+
+    <link rel="stylesheet" href="Scripts/bootstrap-3.3.4-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="Scripts/bootstrap-3.3.4-dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="app.css" type="text/css" />
+
+    <script src="Scripts/angular.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        angular.module("sportsStore", ["customFilters"]);
+    </script>
+    <script src="Controllers/sportsStore.js"></script>
+    <script src="Filters/customFilters.js"></script>
+
+</head>
+<body ng-controller="sportsStoreCtrl">
+
+    <div class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#">SPORTS STORE</a>
+    </div>
+
+    <div class="panel panel-default row">
+        <div class="col-xs-3">
+            <a class="btn btn-block btn-default btn-lg" ng-click="selectCategory()">Home</a>
+            <a ng-repeat="item in data.products | orderBy: 'category' | unique: 'category'"
+               ng-click="selectCategory(item)"
+               class="btn btn-block btn-default btn-lg">{{item}}</a>
+        </div>
+        <div class="col-xs-8">
+            <div class="well" ng-repeat="item in data.products">
+                <h3>
+                    <strong>{{item.name}}</strong>
+                    <span class="pull-right label label-primary">{{item.price|currency}}</span>
+                    <span class="lead">{{item.description}}</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

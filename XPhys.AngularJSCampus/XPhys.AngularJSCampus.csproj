@@ -3,14 +3,14 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <ProjectGuid>{5B0B9BDE-17AA-4030-8022-780700D84589}</ProjectGuid>
+    <ProjectGuid>{B230021A-D833-4E1B-B62E-1A28C8D85144}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <OutputPath>bin</OutputPath>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <TypeScriptToolsVersion>1.4</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.5</TypeScriptToolsVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -27,6 +27,7 @@
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\css\bootstrap-theme.css" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\css\bootstrap-theme.min.css" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\css\bootstrap.css" />
@@ -35,7 +36,6 @@
     <Content Include="Scripts\bootstrap-3.3.4-dist\js\bootstrap.js" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\js\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\js\npm.js" />
-    <Content Include="todo.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +50,6 @@
     <Content Include="Scripts\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Scripts\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="todo.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -62,7 +61,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>XPhys.Me</RootNamespace>
+    <RootNamespace>XPhys.AngularJSCampus</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
@@ -72,9 +71,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2867</DevelopmentServerPort>
+          <DevelopmentServerPort>51724</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2867/</IISUrl>
+          <IISUrl>http://localhost:51724/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
