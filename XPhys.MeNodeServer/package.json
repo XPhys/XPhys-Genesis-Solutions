@@ -1,0 +1,10 @@
+{
+  "name": "xphys-server",
+  "version": "0.0.1",
+  "description": "XPhys Node.js server",
+  "main": "server.js",
+  "author": {
+    "name": "XeeX",
+    "email": "XPhysics@protonmail.ch"
+  }
+}

@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.SportStore", "XPhys.SportStore\XPhys.SportStore.csproj", "{34FD2EEE-05D4-4582-AB5F-D1B535B1172F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.AngularJSCampus", "XPhys.AngularJSCampus\XPhys.AngularJSCampus.csproj", "{B230021A-D833-4E1B-B62E-1A28C8D85144}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "XPhys.MeNodeServer", "XPhys.MeNodeServer\XPhys.MeNodeServer.njsproj", "{1E9737DC-92CD-41C0-B912-F54D601DDF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.Me", "XPhys.Me\XPhys.Me.csproj", "{BF3B1A8E-5F3A-4C05-AD01-2EF08D07E749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.Learning", "XPhys.Learning\XPhys.Learning.csproj", "{86F78777-07FF-41D3-8355-61EA0A1772A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPhys.WPFHelpers", "XPhys.WPFHelpers\XPhys.WPFHelpers.csproj", "{C0E32D7C-4876-4933-A83F-CED5B4007F71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B230021A-D833-4E1B-B62E-1A28C8D85144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9737DC-92CD-41C0-B912-F54D601DDF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9737DC-92CD-41C0-B912-F54D601DDF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9737DC-92CD-41C0-B912-F54D601DDF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9737DC-92CD-41C0-B912-F54D601DDF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3B1A8E-5F3A-4C05-AD01-2EF08D07E749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3B1A8E-5F3A-4C05-AD01-2EF08D07E749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3B1A8E-5F3A-4C05-AD01-2EF08D07E749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3B1A8E-5F3A-4C05-AD01-2EF08D07E749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F78777-07FF-41D3-8355-61EA0A1772A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F78777-07FF-41D3-8355-61EA0A1772A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F78777-07FF-41D3-8355-61EA0A1772A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F78777-07FF-41D3-8355-61EA0A1772A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E32D7C-4876-4933-A83F-CED5B4007F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E32D7C-4876-4933-A83F-CED5B4007F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E32D7C-4876-4933-A83F-CED5B4007F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E32D7C-4876-4933-A83F-CED5B4007F71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
